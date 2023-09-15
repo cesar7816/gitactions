@@ -1,4 +1,4 @@
-name: Deploy Project
+name: 2nd Workflow
 on: push
 jobs:
   test:

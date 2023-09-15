@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello World!"
-  2nd-job:
+  dosjob:
     needs: first-job
     runs-on: ubuntu-latest
     steps:

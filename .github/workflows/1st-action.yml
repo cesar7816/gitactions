@@ -6,5 +6,9 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello World!"
+  2nd-job:
+    needs: first-job
+    runs-on: ubuntu-latest
+    steps:
       - name: Print goodbye
         run: echo "Done - bye!"
